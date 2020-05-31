@@ -1,0 +1,166 @@
+html, body { 
+    margin:0;
+    padding: 0;
+    width:100%;
+    height:100%;
+    overflow: auto;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 45px;
+    text-shadow: 3px 3px 30px #3a3a3a;
+}
+
+/* PÁGINA INICIO */
+#bodyInicio{
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cuerpo{
+    color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: -2px;
+  line-height: 45px;
+  text-shadow: 3px 3px 30px #3a3a3a;
+}
+.cuerpo a.active{
+    background-color: #4CAF50;
+    color: white;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* PÁGINA MENÚ */
+
+#bodyMenu{
+    background-image: url(img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .plato{
+        margin: 40px;
+        margin-top: 20px;
+    }
+        .plato1{
+            
+            margin-left: 10px;
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+            line-height: 25px;
+            text-shadow: 3px 3px 30px #3a3a3a;
+        }
+        .plato2 {
+            padding: 30px;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 19px;
+            line-height: 45px;
+            text-shadow: 3px 3px 30px #3a3a3a;
+        }
+
+        .platoDER img{
+            width: 600px;
+            height: 400px;
+            margin-left: 20px;
+            margin-right: 20px;
+            float:left;
+            border: 1px solid white;
+            border-radius: 10px;
+            
+        }
+        .platoIZQ img{
+            width: 600px;
+            height: 400px;
+            margin-right: 20px;
+            margin-left: 20px;
+            float:right;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+/* FOOTER */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px 100px 50px;
+    margin-top: 80px;
+}
+
+    .footer-distributed .footer-left p{
+        color:  #8f9296;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    /* Footer links */
+
+    .footer-distributed p.footer-links{
+        font-size:18px;
+        font-weight: bold;
+        color:  #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+
+    .footer-distributed p.footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+
+    .footer-distributed .footer-right{
+        float: right;
+    }
+
+
+/* BARRA DE NAVEGACIÓN */
+
+.topnav {
+    background-color:transparent;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 25px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color:orangered;
+            color: white;
+        }
